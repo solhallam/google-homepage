@@ -1,40 +1,45 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Google</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-  </head>
-  <body>
-    <navigation>
-      <div><a href="https://mail.google.com/">Gmail</a></div>
-      <div><a href="https://images.google.com/">Images</a></div>
-      <icon><img src="./resources/apps.svg"></icon>
-      <icon><img src="./resources/notifications.svg"></icon>
-      <img src="./resources/display.JPG">
-    </navigation>
-    <div id="middle-section">
-      <div id="google-logo">
-        <img src="./resources/googlelogo_color_272x92dp.png">
-      </div>
-      <button>Google Search</button>
-      <button>I'm Feeling Lucky</button>
-      <span>Google offered in: <a href="https://www.google.pl">polski</a></span>
-    </div>
-    <footer>
-      <div>
-        <span>Poland</span>
-      </div>
-      <div>
-        <a href="#">Advertising</a>
-        <a href="#">Business</a>
-        <a href="#">About</a>
-      </div>
-      <div>
-        <a href="#">Privacy</a>
-        <a href="#">Terms</a>
-        <a href="#">Settings</a>
-      </div>
-    </footer>
-  </body>
+    <head>
+        <meta charset="utf-8">
+        <title>Google</title>
+        <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
+        <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <nav>
+            <ul>
+                <li class="nav-item"><a href="https://mail.google.com/">Gmail</a></li>
+                <li class="nav-item"><a href="https://images.google.com/">Images</a></li>
+                <li class="nav-item"><img src="./resources/apps.svg"></li>
+                <li class="nav-item"><img src="./resources/notifications.svg"></li>
+                <li class="nav-item"><img id="profile-pic" src="./resources/display.JPG"></li>
+            </ul>
+        </nav>
+        <center>
+            <img id="google-logo" src="./resources/googlelogo_color_272x92dp.png">
+            <input type="text" title="Search" id="search-bar">
+            <div id="buttons">
+                <button>Google Search</button>
+                <button>I'm Feeling Lucky</button>
+            </div>
+            <span id="region-select">Google offered in: <a href="https://www.google.pl">polski</a></span>
+        </center>
+        <footer>
+            <div id=footer-top>Poland</div>
+            <div>
+                <ul>
+                    <li class="left-info"><a href="#">Advertising</a></li>
+                    <li class="left-info"><a href="#">Business</a></li>
+                    <li class="left-info"><a href="#">About</a></li>
+                </ul>
+                <ul>
+                    <li class="right-info"><a href="#">Privacy</a></li>
+                    <li class="right-info"><a href="#">Terms</a></li>
+                    <li class="right-info"><a href="#">Settings</a></li>
+                </ul>
+            </div>
+        </footer>
+    </body>
 </html>
