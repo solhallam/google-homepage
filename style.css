@@ -11,24 +11,32 @@ body {
 
 a {
     text-decoration: none;
-    color: black;
+    color: #222;
 }
 
 a:hover, a:focus {
     text-decoration: underline;
 }
 
-ul {
+nav ul {
     display: flex;
     justify-content: flex-end;
     align-items: center;
     margin-top: 5px;
-    margin-right: 20px;
+    margin-right: 25px;
 }
 
 .nav-item {
     list-style-type: none;
     padding: 10px;
+}
+
+.nav-item i {
+    color: #727272;
+}
+
+.nav-item i:hover {
+    color: #222222;
 }
 
 #profile-pic {
@@ -50,13 +58,16 @@ center {
 }
 
 #search-bar {
-    width: 484px;
+    width: 586px;
     height: 44px;
     margin: 25px 0;
+    padding-left: 14px;
     background: #fff;
     border: none;
     border-radius: 2px;
     box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);
+    font: 16px arial, sans-serif;
+    line-height: 34px;
 }
 
 #search-bar:hover {
@@ -65,11 +76,24 @@ center {
 
 button {
     display: inline-block;
+    padding: 10px 15px;
+    margin-left: 5px;
+    font-family: Helvetica;
+    font-weight: 600;
+    font-size: 13px;
+    color: #747474;
+    background-color: #F1F1F1;
     margin-bottom: 25px;
+    border-radius: 2px;
+    border: none;
+    
 }
 
-span {
-    
+button:hover {
+    color: #222222;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    border: 1px solid #c6c6c6;
+    padding: 9px 14px;
 }
 
 footer {
@@ -88,8 +112,8 @@ footer {
     margin-left: 25px;
 }
 
-footer ul a {
-    color: gray;
+#footer-bottom {
+    padding: 0 15px;
 }
 
 footer ul {
@@ -97,16 +121,20 @@ footer ul {
     display: inline;
 }
 
+footer ul a {
+    color: gray;
+}
+
 footer li {
-    margin: 10px 25px;
     font-size: 13px;
 }
 
-
 .left-info {
     float: left;
+    margin: 10px;
 }
 
 .right-info {
     float: right;
+    margin: 10px;
 }
