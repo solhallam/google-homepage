@@ -1,3 +1,4 @@
+/* General Stylings */
 html, body {
     height: 100%;
 }
@@ -18,11 +19,12 @@ a:hover, a:focus {
     text-decoration: underline;
 }
 
+/* Navigation Stylings */
 nav ul {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    margin-top: 5px;
+    margin-top: 15px;
     margin-right: 25px;
 }
 
@@ -43,6 +45,8 @@ nav ul {
       width: 32px;
       border-radius: 25px;
 }
+
+/* Center Styling */
 
 center {
     display: flex;
@@ -96,6 +100,7 @@ button:hover {
     padding: 9px 14px;
 }
 
+/* Footer Styling */
 footer {
     position:absolute;
     bottom: 0;
